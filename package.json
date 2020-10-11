@@ -1,0 +1,36 @@
+{
+  "name": "ielts-vocab-bot",
+  "version": "1.0.0",
+  "description": "A simple bot to provide random list of words everyday with definitions",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/steffin-codes/ielts-vocab-bot.git"
+  },
+  "homepage": "https://github.com/steffin-codes/ielts-vocab-bot#readme",
+  "keywords": [
+    "telegraf",
+    "telegram",
+    "bot",
+    "dictionary",
+    "json",
+    "node",
+    "vocabulary",
+    "ielts"
+  ],
+  "author": "Steffin",
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "dotenv": "^8.2.0",
+    "fs": "0.0.1-security",
+    "telegraf": "^3.38.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
